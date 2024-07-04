@@ -1,0 +1,14 @@
+.vscode
+.env
+
+__pycache__/
+test/
+cache/  
+*.pdf
+faiss_index/
+files/
+
+data/
+error/
+
+responses.jsonl

@@ -1,0 +1,64 @@
+{
+    "Doc_menu": {
+        "menu": ["pdf", "docx", "pptx", "txt", "csv", "md", "url", "slack"]
+    },
+
+    "LLM": {
+        "HuggingFace": {
+            "menu": [
+                "beomi/gemma-ko-7b",
+                "beomi/llama-2-ko-7b",
+                "ai-forever/mGPT",
+                "KT-AI/midm-bitext-S-7B-inst-v1",
+                "nlpai-lab/KULLM3",
+                "taeminlee/KULLM3-awq",
+                "davidkim205/komt-mistral-7b-v1",
+                "beomi/Llama-3-Open-Ko-8B-preview",
+                "직접 입력"
+            ]
+
+        },
+        "OpenAI": {
+            "menu": [
+                "gpt-3.5-turbo", 
+                "gpt-4", 
+                "gpt-4-turbo-preview"
+            ]
+        },
+        "Docker": {
+            "menu": [
+                "172.16.200.36:3000",
+                "172.16.200.36:3002"
+            ]
+        }
+    },
+    
+    "EmbeddingModel": {
+        "menu": [
+            "BAAI/bge-m3",
+            "sentence-transformers/all-MiniLM-L6-v2",
+            "jhgan/ko-sbert-multitask",
+            "jhgan/ko-sroberta-multitask",
+            "jhgan/ko-sroberta-nli",
+            "jhgan/ko-sroberta-sts",
+            "snunlp/KR-SBERT-V40K-klueNLI-augSTS",
+            "Huffon/sentence-klue-roberta-base",
+            "직접 입력"
+            ]
+    },
+
+    "TextSplitter": {
+        "menu": [
+            "RecursiveCharacterSplitter",
+            "SementicChunker"
+        ]
+    },
+
+    "Retriever": {
+        "menu":  [
+            "Ensemble",
+            "Parent_Document",
+            "Custom"
+        ]
+    }
+}
